@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       {/* TODO: Checkpoint 1 - Add the card element under this */}
-      <Card />
+      <Card name="Pikachu" hp="69"/>
       
     </>
   );

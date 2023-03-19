@@ -10,7 +10,7 @@ export function Info(props) {
     const updateTimestamp = () => {
       // TODO: update the timestamp with the current date and time. 
       // Use (new Date()).toISOString() to get the current date and time.
-      setTimeStamp((new Date()).newISOString());
+      setTimeStamp((new Date()).toISOString());
     }
 
     // Text defaults. Feel free to add your own!

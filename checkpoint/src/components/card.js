@@ -9,7 +9,7 @@ export function Card(props) {
       {/* TODOs: 
       Checkpoint 1 - Add the header and info elements under this comment. 
       Checkpoint 2 - Use (new Date()).toISOString() as the timestamp attribute of info*/}
-      <Header name="Pikachu" hp="69"/>
+      <Header name={ props.name } hp={ props.hp }/>
       <Info timestamp={ (new Date()).toISOString() } />
     </div>
   );
