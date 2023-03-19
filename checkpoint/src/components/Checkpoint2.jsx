@@ -19,8 +19,10 @@ export default function Checkpoint2() {
         /* END OF API CALLING. MODIFY AT YOUR OWN RISK */
 
         // TODO: Map the pokemon to cards
+        const cards = responsePokemon.map((pokemon) => <Card pokemon={pokemon} />);
 
         // TODO: Set pokemonCards to the mapped cards 
+        setPokemonCards(cards);
     }
 
     useEffect(() => {
