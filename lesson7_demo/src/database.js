@@ -7,6 +7,13 @@ import { getDatabase } from 'firebase/database';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   // put your config here
+  apiKey: "AIzaSyAbAcfeCbv9yZEdL3UJIGAIRZ6xKTEQZ9Y",
+  authDomain: "reactjs-lesson-7.firebaseapp.com",
+  databaseURL: "https://reactjs-lesson-7-default-rtdb.firebaseio.com",
+  projectId: "reactjs-lesson-7",
+  storageBucket: "reactjs-lesson-7.appspot.com",
+  messagingSenderId: "898783110807",
+  appId: "1:898783110807:web:83b6947d2ca68929532bd2"
 };
 
 // Initialize Firebase

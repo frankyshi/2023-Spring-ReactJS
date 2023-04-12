@@ -7,10 +7,10 @@ function App() {
         // Type your website layout here...
         <div id="demos">
             {/* Demo #2 */}
-            <Demo2 />
+            {/* <Demo2 /> */}
 
             {/* Demo #3 */}
-             {/* <Demo3 /> */}
+            <Demo3 />
         </div>
     );
 }
